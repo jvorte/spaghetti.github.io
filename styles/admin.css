@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: "Poppins";
+  
+   
+}
+body{
+    
+    /* background-image: url(../images/people.jpg); */
+    background-color: rgb(218, 117, 92);
+   
+    background-size: cover;
+    background-attachment: fixed;
+    color: blanchedalmond;
+   
+}
+
+.wrapper{
+   
+
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0  auto ;
+   
+}
+
+.text-center{
+    text-align: center;
+    
+}
+/* css for Menu */
+.menu{
+    border-bottom:1px solid black;
+}
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+}
+.menu ul li a:hover{
+    color: black;
+}
+/* css for main-content */
+.main-content{
+    margin: 2% 0 ;
+    padding: 5% 0;
+
+}
+.col-4{
+    width: 14%;
+    background-color: rgb(132, 190, 235);
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    padding: 2%;
+    float: left ;
+    color: black;
+    border-radius: 5px;
+    border: cornflowerblue 1px solid;
+    
+    
+     
+}
+.clearfix{
+     float: none;
+     clear: both ; 
+}
+.tbl-full{
+    width: 100%;
+    color: white;
+    
+   
+   
+}
+.tbl-30{
+    width: 50%;
+    border-radius: 5px;
+   
+  
+    
+}
+.tbl-full tr th {
+    border-bottom: 1px solid white ;
+    padding: 2%;
+    text-align: left ;
+    
+}
+   
+.tbl-full tr td {
+    
+    padding: 2%;
+    padding-top: 20px;
+   
+}
+
+.btn-primary{
+     background-color: blue;
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+     padding: 1%;
+     margin-top: 1%;
+
+}
+
+.btn-primary:hover{
+background-color: rgb(97, 102, 167);
+}
+.btn-delete{
+   
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1%;
+    width: 14px;
+    border: 1px solid white;
+
+  
+
+}
+
+.btn-delete:hover{
+background-color: red;
+}
+.btn-update{
+   
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1%;
+    border: 1px solid white;
+    
+ 
+}
+
+.btn-update:hover{
+    background-color: rgb(97, 102, 167);
+    }
+
+
+.btn-update1{
+   
+        color: rgb(24, 17, 17);
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 1%;
+        border: 1px solid white;
+        
+     
+    }
+    
+ .btn-update1:hover{
+        background-color: rgb(97, 102, 167);
+        }
+
+
+.success{
+    color: white;
+}
+.error{
+    color: white;
+}
+
+table{
+   
+   color: aliceblue;
+}
+
+/* css for footer */
+.footer{
+
+    background-color: rgb(17, 9, 9);
+    color: azure;
+   
+}
+h1{
+    color: rgb(240, 234, 234);
+
+}
+/* //css for login  */
+.login {
+
+    color: white;
+    border: 1px solid white;
+    margin: 10% auto;
+    width: 20%;
+    padding:2% ;
+    
+}
+.login a{
+
+   color: red;
+    text-decoration: none;
+   
+
+   
+
+}
+
+

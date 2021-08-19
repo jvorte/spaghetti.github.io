@@ -1,0 +1,26 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+body{
+     background-image: url(img/office6.jpg);
+        background-size: cover; 
+        color: white;
+        height: 100vh;
+}
+
+#front{
+     margin-top:16%;
+     width: 80%;
+     margin-left: 10%;
+   
+}
+
+#table{
+    /* margin-top: 20%; */
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 5px;
+}
+#title{
+    text-align: center;
+    color: white;
+  padding: 10%;
+}
